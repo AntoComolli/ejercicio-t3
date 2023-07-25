@@ -1,0 +1,32 @@
+# Definimos la función de suma con tres parámetros
+def sumar_tres_numeros(a, b, c):
+    return a + b + c
+
+# Llamamos a la función en el main y le damos valores
+def main():
+    numero1 = 5
+    numero2 = 10
+    numero3 = 15
+
+    resultado = sumar_tres_numeros(numero1, numero2, numero3)
+    print("La suma de los tres números es:", resultado)
+
+if __name__ == "__main__":
+    main()
+# Definimos la clase Coche
+class Coche:
+    def __init__(self, num_puertas):
+        self.num_puertas = num_puertas
+
+    def agregar_puerta(self):
+        self.num_puertas += 1
+
+# Creamos un objeto miCoche y le añadimos una puerta
+def main():
+    miCoche = Coche(num_puertas=3)
+    miCoche.agregar_puerta()
+
+    print("El número de puertas del coche es:", miCoche.num_puertas)
+
+if __name__ == "__main__":
+    main()
